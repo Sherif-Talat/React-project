@@ -2,6 +2,8 @@
 import React from 'react';
 import Header  from '../component/header'
 import Footer from '../component/footer'
+import MainContent from '../component/Main-content'
+
 
 const Home = () => {
   return (
@@ -9,10 +11,8 @@ const Home = () => {
         
       <Header />
 
-        <main>
-        Home page
-        </main>
-    
+      
+    <MainContent  pageName= "Home"  Designer = "  Designed by sherif Talat" />
       
     <Footer />
 

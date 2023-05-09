@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       
       <header className="hide-when-mobile">
-          <h1>Courses 4 Arab</h1>
+        <Link to= "/src/Pages/home.js">  <h1>Courses 4 Arab</h1> </Link>
           <ul className="flex">
             <li className="main-list">
               <NavLink  className="main-link" to="/html"> HTML </NavLink>

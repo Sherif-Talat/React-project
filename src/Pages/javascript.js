@@ -1,8 +1,9 @@
 
 
 import React from 'react';
-import Header  from '../component/header'
+import Header  from '../component/header';
 import Footer from '../component/footer';
+import MainContent from '../component/Main-content'
 
 const Javascript = () => {
   return (
@@ -10,9 +11,7 @@ const Javascript = () => {
        
        <Header />
 
-        <main>
-         JavaScript page
-        </main>
+       <MainContent   pageName= "javascript" />
     
     <Footer />
       
